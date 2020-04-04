@@ -140,7 +140,7 @@ $ yarn start #=> ... Project is running at http://localhost:8080/
 | `packages` |  `[]`   | `Array`: [package names currently avalable](https://github.com/iodide-project/pyodide/tree/master/packages) in Pyodide   |  Uses Pyodide's [`loadPackage()`](https://pyodide.readthedocs.io/en/latest/using_pyodide_from_webworker.html#loading-packages) to preload packages   |
 |  `console`  | `true`  | `Boolean`: `true` or `false` | `false` disables the HTML console which displays the results. |
 |   `edit`   | `true`  |  `Boolean`: `true` or `false`   |  `false` disables the `textarea` input while still allowing the embedded code to be run. |
-|   `scope`   | `false`  |  `Boolean`: `true` or `false`   |  `false` creates a new `Repl()` for the component with its own Python context. `true` shares the `Repl()` context between editors globally, i.e. one editor can reference variables from another. |
+|   `scope`   | `false`  |  `Boolean`: `true` or `false`   |  `true` creates a new `Repl()` for the component with its own Python context. `false` shares the `Repl()` context between editors globally, i.e. one editor can reference variables from another. |
 
 ## Contributing/Requests
 
