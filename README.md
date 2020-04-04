@@ -62,35 +62,6 @@ np.random.rand(3,2)
 $ liminoid serve my-doc.mdx
 ```
 
-### Gatsby
-
-```sh
-$ npm init mdx gatsby
-$ cd gatsby-mdx
-$ yarn add liminoid-mdx
-```
-
-```js
-// gatsby.config.js
-const liminoid = require('liminoid-mdx');
-
-module.exports = {
-  plugins: [
-    {
-      resolve: 'gatsby-plugin-mdx',
-      options: {
-        // ...
-        remarkPlugins: [liminoid]
-      }
-    }
-  ]
-};
-```
-
-```sh
-$ yarn start #=> ... Project is running at http://localhost:8000/
-```
-
 ### Webpack
 
 ```sh
@@ -130,6 +101,35 @@ module.exports = {
 
 ```sh
 $ yarn start #=> ... Project is running at http://localhost:8080/
+```
+
+### Gatsby
+
+```sh
+$ npm init mdx gatsby
+$ cd gatsby-mdx
+$ yarn add liminoid-mdx
+```
+
+```js
+// gatsby.config.js
+const liminoid = require('liminoid-mdx');
+
+module.exports = {
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        // ...
+        remarkPlugins: [liminoid]
+      }
+    }
+  ]
+};
+```
+
+```sh
+$ yarn start #=> ... Project is running at http://localhost:8000/
 ```
 
 ## `meta`
