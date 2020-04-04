@@ -1,0 +1,48 @@
+{
+  "name": "liminoid-mdx",
+  "version": "0.0.4",
+  "description": "Interactive local-first Python documents.... that are as easy as putting code fences in your Markdown!",
+  "keywords": [
+    "javascript",
+    "web assembly",
+    "python",
+    "pyodide",
+    "markdown",
+    "mdx",
+    "remark",
+    "gatsby",
+    "webpack",
+    "liminoid"
+  ],
+  "author": "Jonathan Dinu (https://memoryphone.me/)",
+  "license": "MIT",
+  "homepage": "https://github.com/liminoid/liminoid-mdx",
+  "bugs": "https://github.com/liminoid/liminoid-mdx/issues",
+  "main": "index.js",
+  "module": "index.js",
+  "unpkg": "index.js",
+  "jsdelivr": "index.js",
+  "repository": "https://github.com/liminoid/liminoid-mdx.git",
+  "files": [
+    "index.js"
+  ],
+  "prettier": {
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "unist-util-visit": "^2.0.2",
+    "liminoid-react": "^0.0.11",
+    "@mdx-js/mdx": "^1.5.8",
+    "@mdx-js/react": "^1.0.0-rc.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2"
+  },
+  "peerDependencies": {},
+  "dependencies": {}
+}

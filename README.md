@@ -59,10 +59,16 @@ np.random.rand(3,2)
 ### Liminoid CLI
 
 ```sh
-$ liminoid serve my-doc.md
+$ liminoid serve my-doc.mdx
 ```
 
 ### Gatsby
+
+```sh
+$ npm init mdx gatsby
+$ cd gatsby-mdx
+$ yarn add liminoid-mdx
+```
 
 ```js
 // gatsby.config.js
@@ -81,7 +87,17 @@ module.exports = {
 };
 ```
 
+```sh
+$ yarn start #=> ... Project is running at http://localhost:8080/
+```
+
 ### Webpack
+
+```sh
+$ npm init mdx webpack
+$ cd webpack-mdx
+$ yarn add liminoid-mdx
+```
 
 ```js
 // webpack.config.js
@@ -98,9 +114,7 @@ module.exports = {
       {
         test: /\.mdx?$/,
         use: [
-          {
-            loader: 'babel-loader'
-          },
+          'babel-loader',
           {
             loader: '@mdx-js/loader',
             options: {
@@ -108,14 +122,14 @@ module.exports = {
             }
           }
         ]
-      },
-      {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader']
       }
     ]
   }
 };
+```
+
+```sh
+$ yarn start #=> ... Project is running at http://localhost:8080/
 ```
 
 ## `meta`
@@ -130,7 +144,7 @@ module.exports = {
 
 ## Contributing/Requests
 
-Open an [issue](https://github.com/liminoid/liminoid-mdx/issues) or post a message in the [chatroom](https://discord.gg/sa7MwxY).
+Open an [issue](https://github.com/liminoid/liminoid-mdx/issues) or post a message in the [chatroom](https://discord.gg/sa7MwxY). If you would like to contribute to the project (code, documentation, tutorials, etc.) see the [contributing guide](https://liminoid.io/contributing/) for how to get started 🙌
 
 ## Citing
 
