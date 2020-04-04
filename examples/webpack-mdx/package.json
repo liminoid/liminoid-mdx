@@ -1,0 +1,29 @@
+{
+  "name": "webpack-mdx",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@mdx-js/loader": "^1.5.8",
+    "@mdx-js/mdx": "^1.5.8",
+    "babel-loader": "^8.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "liminoid-mdx": "0.0.4"
+  }
+}
