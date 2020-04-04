@@ -88,7 +88,7 @@ module.exports = {
 ```
 
 ```sh
-$ yarn start #=> ... Project is running at http://localhost:8080/
+$ yarn start #=> ... Project is running at http://localhost:8000/
 ```
 
 ### Webpack
