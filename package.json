@@ -1,6 +1,6 @@
 {
   "name": "liminoid-mdx",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Interactive local-first Python documents.... that are as easy as putting code fences in your Markdown!",
   "keywords": [
     "javascript",
@@ -32,8 +32,6 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "unist-util-visit": "^2.0.2",
-    "liminoid-react": "^0.0.11",
     "@mdx-js/mdx": "^1.5.8",
     "@mdx-js/react": "^1.0.0-rc.5",
     "eslint": "^6.8.0",
@@ -44,5 +42,8 @@
     "eslint-plugin-prettier": "^3.1.2"
   },
   "peerDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "unist-util-visit": "^2.0.2",
+    "liminoid-react": "^0.0.11"
+  }
 }
