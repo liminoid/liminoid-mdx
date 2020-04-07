@@ -24,6 +24,6 @@
     "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
-    "liminoid-mdx": "0.0.4"
+    "liminoid-mdx": "^0.0.6"
   }
 }

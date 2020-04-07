@@ -11,7 +11,7 @@
     "@mdx-js/react": "^1.5.8",
     "gatsby": "^2.19.5",
     "gatsby-plugin-mdx": "^1.0.23",
-    "liminoid-mdx": "^0.0.4",
+    "liminoid-mdx": "^0.0.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "unified-ui": "^0.0.3"

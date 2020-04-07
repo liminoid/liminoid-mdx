@@ -1,7 +1,7 @@
 const visit = require('unist-util-visit');
 
 const LANGS = ['python', 'py'];
-const PROPS = ['packages', 'console', 'edit', 'scope'];
+const PROPS = ['packages', 'console', 'edit', 'scope', 'onResult'];
 
 module.exports = () => (tree, file) => {
   tree.children.unshift({
@@ -14,7 +14,7 @@ module.exports = () => (tree, file) => {
       // transform node into a Liminoid block
       const props = node.meta
         .split(';')
-        .map(kv => kv.split('=').map(e => e.trim()))
+        .map(kv => kv.split(/=(?!>)/).map(e => e.trim()))
         .filter(prop => {
           try {
             new Function(`"use strict";return (${prop[1]})`)();

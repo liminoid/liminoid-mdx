@@ -1,6 +1,6 @@
 {
   "name": "liminoid-mdx",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Interactive local-first Python documents.... that are as easy as putting code fences in your Markdown!",
   "keywords": [
     "javascript",
