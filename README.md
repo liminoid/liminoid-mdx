@@ -141,6 +141,7 @@ $ yarn start #=> ... Project is running at http://localhost:8000/
 |  `console`  | `true`  | `Boolean`: `true` or `false` | `false` disables the HTML console which displays the results. |
 |   `edit`   | `true`  |  `Boolean`: `true` or `false`   |  `false` disables the `textarea` input while still allowing the embedded code to be run. |
 |   `scope`   | `false`  |  `Boolean`: `true` or `false`   |  `true` creates a new `Repl()` for the component with its own Python context. `false` shares the `Repl()` context between editors globally, i.e. one editor can reference variables from another. |
+|   `onResult`   | `undefined`  |  `Function`: [function expression][f_exp] or reference  |  callback function that receives the results when the code is run. `(res, err) => { ... }` |
 
 ## Contributing/Requests
 
