@@ -1,6 +1,6 @@
 {
   "name": "liminoid-mdx",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Interactive local-first Python documents.... that are as easy as putting code fences in your Markdown!",
   "keywords": [
     "javascript",
@@ -48,6 +48,6 @@
   "peerDependencies": {},
   "dependencies": {
     "unist-util-visit": "^2.0.2",
-    "liminoid-react": "^0.0.14"
+    "liminoid-react": "^0.0.15"
   }
 }
