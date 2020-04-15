@@ -7,16 +7,16 @@ const PROPS = ['packages', 'console', 'edit', 'scope', 'onResult'];
 module.exports = () => (tree, file) => {
   tree.children.unshift({
     type: 'import',
-    value: "import Liminoid from 'liminoid-react'"
+    value: "import Liminoid from 'liminoid-react'",
   });
 
-  visit(tree, 'code', node => {
+  visit(tree, 'code', (node) => {
     if (node.meta && LANGS.includes(node.lang)) {
       // transform node into a Liminoid block
       const props = node.meta
         .split(';')
-        .map(kv => kv.split(/=(?!>)/).map(e => e.trim()))
-        .filter(prop => {
+        .map((kv) => kv.split(/=(?!>)/).map((e) => e.trim()))
+        .filter((prop) => {
           try {
             // eslint-disable-next-line no-new-func
             new Function(`"use strict";return (${prop[1]})`)();
