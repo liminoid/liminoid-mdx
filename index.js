@@ -7,7 +7,7 @@ const PROPS = ['packages', 'console', 'edit', 'scope', 'onResult'];
 module.exports = () => (tree, file) => {
   tree.children.unshift({
     type: 'import',
-    value: "import Liminoid from 'https://unpkg.com/liminoid-react'",
+    value: "import Liminoid from 'liminoid-react'",
   });
 
   visit(tree, 'code', (node) => {
