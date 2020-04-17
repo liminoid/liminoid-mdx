@@ -48,7 +48,7 @@
   },
   "peerDependencies": {},
   "dependencies": {
-    "liminoid-react": "^0.0.18",
+    "liminoid-react": "^0.0.20",
     "unist-util-visit": "^2.0.2"
   }
 }
