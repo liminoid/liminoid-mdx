@@ -24,6 +24,8 @@
     "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
-    "liminoid-mdx": "^0.0.10"
+    "@rebass/forms": "^4.0.6",
+    "liminoid-mdx": "^0.0.10",
+    "rebass": "^4.0.7"
   }
 }
