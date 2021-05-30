@@ -1,34 +1,4 @@
-<div align="center">
-
-  <h1>🔵🔴 liminoid-mdx 🔴🔵</h1>
-
-<strong>Interactive local-first Python documents.... that are as easy as putting code fences in your Markdown!</strong>
-
-</div>
-
-<div align="center">
-  <h4>
-    <a href="https://liminoid.io/guides/markdown/">
-      Documentation
-    </a>
-    <span> | </span>
-    <a href="https://discord.gg/sa7MwxY">
-      Chatroom
-    </a>
-    <span> | </span>
-    <a href="https://twitter.com/liminoid_io">
-      Twitter
-    </a>
-    <span> | </span>
-    <a href="https://stackoverflow.com/questions/tagged/liminoid">
-      Stack Overflow
-    </a>
-    <span> | </span>
-    <a href="https://liminoid.io/contributing/">
-      Contributing
-    </a>
-  </h4>
-</div>
+> ⚠️ Package has moved to https://www.npmjs.com/package/run-the-docs and development has moved to https://github.com/psychothan/run-the-docs ⚠️
 
 ## Installation
 
