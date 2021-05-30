@@ -1,4 +1,4 @@
-> ⚠️ Package has moved to https://www.npmjs.com/package/run-the-docs and development has moved to https://github.com/psychothan/run-the-docs ⚠️
+> ⚠️ Package has moved to [run-the-docs](https://www.npmjs.com/package/run-the-docs) and development has moved to [psychothan/run-the-docs](https://github.com/psychothan/run-the-docs) ⚠️
 
 ## Installation
 
